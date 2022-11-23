@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Camisa 1",
+        "price": 100,
+        "discount": 30,
+        "image": "https://picsum.photos/180"
+    },
+    {
+        "id": 2,
+        "name": "Camisa 2",
+        "price": 200,
+        "discount": 25,
+        "image": "https://picsum.photos/180"
+    },
+    {
+        "id": 3,
+        "name": "Camisa 3",
+        "price": 300,
+        "discount": 25,
+        "image": "https://picsum.photos/180"
+    },
+    {
+        "id": 4,
+        "name": "Camisa 4",
+        "price": 400,
+        "discount": 25,
+        "image": "https://picsum.photos/180"
+    },
+    {
+        "id": 5,
+        "name": "Camisa 5",
+        "price": 500,
+        "discount": 25,
+        "image": "https://picsum.photos/180"
+    }
+    
+]

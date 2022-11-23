@@ -1,11 +1,18 @@
-import React from 'react'
+import React from "react";
+import ProductContainer from "./ProductContainer";
+import { Product } from "./Product";
+import data from "../products.json";
 
 const ProductList = () => {
   return (
-    <div>
-        <h1>Esta es la lista de productos</h1>
-    </div>
-  )
-}
+    <ProductContainer>
 
-export default ProductList
+      {data.map((product) => (
+        <Product key={product.id} name={product.name} discount={product.discount} oldPrice={product.price} newPrice={product.price - product.price * product.discount / 100} />
+      ))}
+
+    </ProductContainer>
+  );
+};
+
+export default ProductList;
