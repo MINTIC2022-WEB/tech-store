@@ -3,35 +3,45 @@
         "id": 1,
         "name": "Camisa 1",
         "price": 100,
+        "description": "Aquí va la descripción del producto 1",
         "discount": 30,
+        "stock": 0,
         "image": "https://picsum.photos/180"
     },
     {
         "id": 2,
         "name": "Camisa 2",
+        "description": "Aquí va la descripción del producto 2",
         "price": 200,
         "discount": 25,
+        "stock": 0,
         "image": "https://picsum.photos/180"
     },
     {
         "id": 3,
         "name": "Camisa 3",
+        "description": "Aquí va la descripción del producto 3",
         "price": 300,
         "discount": 25,
+        "stock": 0,
         "image": "https://picsum.photos/180"
     },
     {
         "id": 4,
         "name": "Camisa 4",
+        "description": "Aquí va la descripción del producto 4",
         "price": 400,
         "discount": 25,
+        "stock": 5,
         "image": "https://picsum.photos/180"
     },
     {
         "id": 5,
         "name": "Camisa 5",
+        "description": "Aquí va la descripción del producto 5",
         "price": 500,
         "discount": 25,
+        "stock": 0,
         "image": "https://picsum.photos/180"
     }
     

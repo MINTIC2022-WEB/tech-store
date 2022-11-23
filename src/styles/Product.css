@@ -20,6 +20,20 @@
     color: var(--text);
 }
 
+.product__stock {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 14px;
+    color: var(--text);
+}
+
+.product__description {
+    text-align: justify;
+    font-size: 12px;
+    margin-top: 12px;
+    color: var(--text);
+}
+
 .product__details {
     display: flex;
     margin-top: 16px;

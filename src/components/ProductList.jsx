@@ -8,7 +8,7 @@ const ProductList = () => {
     <ProductContainer>
 
       {data.map((product) => (
-        <Product key={product.id} name={product.name} discount={product.discount} oldPrice={product.price} newPrice={product.price - product.price * product.discount / 100} />
+        <Product key={product.id} name={product.name} stock={product.stock} description={product.description} discount={product.discount} oldPrice={product.price} newPrice={product.price - product.price * product.discount / 100} />
       ))}
 
     </ProductContainer>
