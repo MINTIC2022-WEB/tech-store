@@ -8,4 +8,6 @@ En el directorio del proyecto debes instalar:
 
 ### `npm i react-router-dom@6`
 ### `npm install react-icons --save`
+### `npm i bootstrap reactstrap`
+### `npm i react-hook-form`
 

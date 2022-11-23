@@ -37,6 +37,12 @@ const Navbar = () => {
             </li>
 
             <li class="nav-item">
+              <Link class="nav-link active" to="/products-admin">
+                Administrar
+              </Link>
+            </li>
+
+            <li class="nav-item">
               <Link class="nav-link disabled" href="/pricing">
                 Pricing
               </Link>

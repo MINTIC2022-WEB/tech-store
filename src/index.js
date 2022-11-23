@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import Navbar from "./components/navbar/Navbar";
 import ProductList from "./components/ProductList";
+import { ProductsAdmin } from "./components/ProductsAdmin";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -18,6 +19,7 @@ root.render(
   <Routes>
     <Route path="/" element={<Home/>} />
     <Route path="/product-list" element={<ProductList/>} />
+    <Route path="/products-admin" element={<ProductsAdmin/>} />
   </Routes>
   
   </BrowserRouter>
